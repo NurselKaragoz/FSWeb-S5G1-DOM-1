@@ -49,13 +49,13 @@ console.log("Proje açıldı!");
 
 /* Kodlar Buradan aşağıya */
 
-const navelement = document.querySelector("a");
-// for (let i = 0; i < navelement.length; i++) {
-navelement.setAttribute = ("class", "italic");
-
 document.getElementById("logo-img").src = "http://localhost:9000/img/logo.png";
 
 document.getElementById("cta-img").src = "http://localhost:9000/img/cta.png";
 
 document.getElementById("middle-img").src =
   "http://localhost:9000/img/accent.png";
+
+document.querySelector(".cta-text h1").textContent = siteContent.cta.h1;
+document.querySelector(".cta-text button ").textContent =
+  siteContent.cta.button;
