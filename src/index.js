@@ -59,3 +59,11 @@ document.getElementById("middle-img").src =
 document.querySelector(".cta-text h1").textContent = siteContent.cta.h1;
 document.querySelector(".cta-text button ").textContent =
   siteContent.cta.button;
+
+document.querySelector(".text-content h4").textContent =
+  siteContent["ana-içerik"]["özellikler-h4"];
+
+document.querySelector(".text-content h4").textContent =
+  siteContent["ana-içerik"]["hakkımızda-h4"];
+
+document.querySelector("header nav a").classList.add("italic");
